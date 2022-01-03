@@ -1,0 +1,18 @@
+Algorithm is a correctly defineed computational procedure which has an input and an output
+
+Algorithm is a sequence of steps transforming an input to an output
+
+We need Algorithms for solving correctly defined computational problems
+
+Algorithm is always formalized and it non-ambiguously defines the computational procedure for reaching the desired results
+
+
+Algorithm is correct if for any valid and correct input it produces a correct output
+
+Algorithms includes:
+    1. Description of a correct input
+    2. Full description of computational steps
+    3. Description of a correct output
+
+Algorithms often provide an implementation in pseudo-code
+

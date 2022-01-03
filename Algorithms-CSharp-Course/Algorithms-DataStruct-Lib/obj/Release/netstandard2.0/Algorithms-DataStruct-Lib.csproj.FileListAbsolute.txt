@@ -1,0 +1,9 @@
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\Algorithms-DataStruct-Lib\bin\Release\netstandard2.0\Algorithms-DataStruct-Lib.deps.json
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\Algorithms-DataStruct-Lib\bin\Release\netstandard2.0\Algorithms-DataStruct-Lib.dll
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\Algorithms-DataStruct-Lib\bin\Release\netstandard2.0\Algorithms-DataStruct-Lib.pdb
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\Algorithms-DataStruct-Lib\obj\Release\netstandard2.0\Algorithms-DataStruct-Lib.csprojAssemblyReference.cache
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\Algorithms-DataStruct-Lib\obj\Release\netstandard2.0\Algorithms-DataStruct-Lib.csproj.CoreCompileInputs.cache
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\Algorithms-DataStruct-Lib\obj\Release\netstandard2.0\Algorithms-DataStruct-Lib.AssemblyInfoInputs.cache
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\Algorithms-DataStruct-Lib\obj\Release\netstandard2.0\Algorithms-DataStruct-Lib.AssemblyInfo.cs
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\Algorithms-DataStruct-Lib\obj\Release\netstandard2.0\Algorithms-DataStruct-Lib.dll
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\Algorithms-DataStruct-Lib\obj\Release\netstandard2.0\Algorithms-DataStruct-Lib.pdb

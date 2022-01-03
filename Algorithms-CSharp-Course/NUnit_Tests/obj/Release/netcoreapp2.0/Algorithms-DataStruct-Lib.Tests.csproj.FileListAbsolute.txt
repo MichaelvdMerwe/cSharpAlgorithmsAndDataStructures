@@ -1,0 +1,17 @@
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\bin\Release\netcoreapp2.0\NUnit3.TestAdapter.dll
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\bin\Release\netcoreapp2.0\NUnit3.TestAdapter.pdb
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\bin\Release\netcoreapp2.0\nunit.engine.netstandard.dll
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\bin\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.deps.json
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\bin\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.runtimeconfig.json
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\bin\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.runtimeconfig.dev.json
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\bin\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.dll
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\bin\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.pdb
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\bin\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.dll
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\bin\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.pdb
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\obj\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.csprojAssemblyReference.cache
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\obj\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.csproj.CoreCompileInputs.cache
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\obj\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.AssemblyInfoInputs.cache
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\obj\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.AssemblyInfo.cs
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\obj\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.csproj.CopyComplete
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\obj\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.dll
+Q:\OneDrive\Documents\Udemy-Course\22-Algorithms and Data Structures in C#\Algorithms-CSharp-Course\NUnit_Tests\obj\Release\netcoreapp2.0\Algorithms-DataStruct-Lib.Tests.pdb

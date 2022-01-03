@@ -1,0 +1,9 @@
+ADT is an abstract description of how a specific set of data can be organized and which operations can be performed on that set of data
+A data structure is a concrete implementation of an ADT
+
+ADT can describe a stack as a data type which allows to store data and perform push, pop and peek operations
+
+Stack has an abstract definition and a concrete implementation
+
+Data structures are based on primitive data types(string, int, etc)
+primitive data tpes are basic building blocks
