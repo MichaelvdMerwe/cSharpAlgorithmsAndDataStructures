@@ -123,5 +123,57 @@ namespace dataStructuresAndAlgorithmsPlayground
                 }
             }
         }
+
+        private static void ArrayTimeComplexity(object[] array)
+        {
+            //access by index
+            //O(1) constant runtime
+            Console.WriteLine(array[0]);
+
+            //some pseudocode
+            //searching for an element takes O(N) time
+            int length = array.Length;
+            object elementINeedToFind = new object();
+            for (int i = 0; i < length; i++)
+            {
+                if (array[i] == elementINeedToFind)
+                {
+                    Console.WriteLine("Exists/Found");
+                }
+            }
+
+            //add to a full array
+            var biggArray = new int[length * 2];
+            Array.Copy(array, biggArray, length);
+            biggArray[length + 1] = 10;
+
+            //add to the end when theres some space
+            //O(1)
+            array[length - 1] = 10;
+
+            //if you know the index then the algorithm runtime is O(1)
+            //if you loop through its O(N)
+
+            //O(1)
+            array[6] = null;
+        }
+
+        private static void RemoveAt(object[] array, int index)
+        {
+            //Complexity of this algorithm is O(N) since copy uses a loop
+            var newArray = new object[array.Length - 1];
+            Array.Copy(array, 0, newArray, 0, index);
+            Array.Copy(array, index + 1, newArray, index, array.Length - 1 - index);
+        }
+
+        private static void BubbleSortAlgorithm()
+        {
+            //in-place algorithm, uses small amounts of extra memory
+            //Bubble sort is memory efficient
+            //stable
+            //Runtime of algorithm O(n^2), quadratic
+            //Degrades quickly when large objects are used due to the quadratic complexity
+
+        }
     }
 }

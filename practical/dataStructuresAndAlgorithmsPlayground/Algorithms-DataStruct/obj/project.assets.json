@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\personalGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\Algorithms-DataStruct\\Algorithms-DataStruct.csproj",
+      "projectUniqueName": "C:\\coursesGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\Algorithms-DataStruct\\Algorithms-DataStruct.csproj",
       "projectName": "Algorithms-DataStruct",
-      "projectPath": "C:\\personalGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\Algorithms-DataStruct\\Algorithms-DataStruct.csproj",
+      "projectPath": "C:\\coursesGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\Algorithms-DataStruct\\Algorithms-DataStruct.csproj",
       "packagesPath": "C:\\Users\\vandermx\\.nuget\\packages\\",
-      "outputPath": "C:\\personalGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\Algorithms-DataStruct\\obj\\",
+      "outputPath": "C:\\coursesGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\Algorithms-DataStruct\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
