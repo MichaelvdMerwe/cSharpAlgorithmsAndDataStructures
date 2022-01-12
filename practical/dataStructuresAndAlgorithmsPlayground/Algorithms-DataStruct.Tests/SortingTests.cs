@@ -40,15 +40,28 @@ namespace Algorithms_DataStruct.Tests
             TestContext.WriteLine("--------TRACE-----------\n");
             foreach (var el in array)
             {
-                TestContext.WriteLine(el + " ");
+                TestContext.Write(el + " ");
             }
 
         }
 
         [Test]
-        public void BubbleSort_ValidInput_SortedInput()
+        public void BubbleSort_ValidInput_SortedOutput()
         {
             RunTestsForSortAlgorithm(Sorting.BubbleSort);
         }
+
+        [Test]
+        public void SelectionSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.SelectionSort);
+        }
+
+        [Test]
+        public void InsertionSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.InsertionSort);
+        }
+
     }
 }
