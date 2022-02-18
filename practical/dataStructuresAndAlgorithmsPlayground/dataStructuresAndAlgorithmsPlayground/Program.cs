@@ -7,10 +7,10 @@ namespace dataStructuresAndAlgorithmsPlayground
 {
     class Program
     {
-        private static string oneThousandInts = "C:\\personalGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\dataStructuresAndAlgorithmsPlayground\\txtFiles\\1Kints.txt";
-        private static string twoThousandInts = "C:\\personalGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\dataStructuresAndAlgorithmsPlayground\\txtFiles\\2Kints.txt";
-        private static string fourThousandInts = "C:\\personalGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\dataStructuresAndAlgorithmsPlayground\\txtFiles\\4Kints.txt";
-        private static string eightThousandInts = "C:\\personalGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\dataStructuresAndAlgorithmsPlayground\\txtFiles\\8Kints.txt";
+        private static readonly string oneThousandInts = "C:\\personalGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\dataStructuresAndAlgorithmsPlayground\\txtFiles\\1Kints.txt";
+        private static readonly string twoThousandInts = "C:\\personalGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\dataStructuresAndAlgorithmsPlayground\\txtFiles\\2Kints.txt";
+        private static readonly string fourThousandInts = "C:\\personalGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\dataStructuresAndAlgorithmsPlayground\\txtFiles\\4Kints.txt";
+        private static readonly string eightThousandInts = "C:\\personalGit\\cSharpAlgorithmsAndDataStructures\\practical\\dataStructuresAndAlgorithmsPlayground\\dataStructuresAndAlgorithmsPlayground\\txtFiles\\8Kints.txt";
 
 
         static void Main(string[] args)
@@ -50,6 +50,38 @@ namespace dataStructuresAndAlgorithmsPlayground
             //Time taken: 0:05:25,8913709
             */
             #endregion
+        }
+        
+        // 1! = 1 * 0! = 1
+        // 2! = 2 * 1 = 2 * 1!
+        // 3! = 3 * 2 * 1 = 3 * 2!
+        // n! = n * (n-1)!
+
+        private static int RecursiveFactorial(int n)
+        {
+            if(n == 0)
+            {
+                return 1;
+            }
+
+            return n * RecursiveFactorial(n-1);
+        }
+
+        private static int IterativeFactorial(int number)
+        {
+            if(number == 0)
+            {
+                return 1;
+            }
+
+            int factorial = 1;
+
+            for (int i = 1; i <= number; i++)
+            {
+                factorial *= i;
+            }
+
+            return factorial;
         }
 
         private static void ArraysDemo()
@@ -164,16 +196,6 @@ namespace dataStructuresAndAlgorithmsPlayground
             var newArray = new object[array.Length - 1];
             Array.Copy(array, 0, newArray, 0, index);
             Array.Copy(array, index + 1, newArray, index, array.Length - 1 - index);
-        }
-
-        private static void BubbleSortAlgorithm()
-        {
-            //in-place algorithm, uses small amounts of extra memory
-            //Bubble sort is memory efficient
-            //stable
-            //Runtime of algorithm O(n^2), quadratic
-            //Degrades quickly when large objects are used due to the quadratic complexity
-
         }
     }
 }

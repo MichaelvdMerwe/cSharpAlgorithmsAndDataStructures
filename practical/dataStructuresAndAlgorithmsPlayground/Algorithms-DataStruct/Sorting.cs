@@ -6,6 +6,7 @@ namespace Algorithms_DataStruct
 {
     public class Sorting
     {
+
         public static void BubbleSort(int[] array)
         {
             // in-place and stable algorithm
@@ -64,6 +65,38 @@ namespace Algorithms_DataStruct
                 array[i] = curUnsorted;
             }
             // because this depends on shifting an array until the value is in the correct place, it could be quite slow as it may need to shift an entire arrays values in order to sort a single element
+        }
+
+        public static void ShellSort(int[] array)
+        {
+            // in-place algorithm and unstable algorithm
+            // O(n^3/2) time complexity (if sequence is (1/2(3^k -1)), can even be O(n^6/5)
+            // based on the insertion sort
+            // insertion sort is fast on pre-sorted arrays
+            // Basic idea: pre-sort the input and switch to insertion sort
+            // Gap is used for pre-sorting => swap distant elements
+            // shell sort starts with a 'large' gap and gradually reduces it
+            // when gap = 1, insertion sort finishes the sorting process
+            // Shell sort performance depends on a concrete gap value, in 99% of cases we can rely on the "universal" sequence of gap values
+
+            int gap = 1;
+
+            while(gap < array.Length / 3)
+            {
+                gap = 3 * gap + 1;
+            }
+
+            while(gap >= 1)
+            {
+                for (int i = gap; i < array.Length; i++)
+                {
+                    for(int j = i; j >= gap && array[j] < array[j - gap]; j -= gap)
+                    {
+                        Swap(array, j, j - gap);
+                    }
+                }
+                gap /= 3;
+            }
         }
 
         private static void Swap(int[] array, int i, int j)

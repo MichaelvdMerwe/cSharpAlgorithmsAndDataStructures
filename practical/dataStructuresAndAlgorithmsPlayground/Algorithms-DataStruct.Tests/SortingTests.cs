@@ -63,5 +63,11 @@ namespace Algorithms_DataStruct.Tests
             RunTestsForSortAlgorithm(Sorting.InsertionSort);
         }
 
+        [Test]
+        public void ShellSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.ShellSort);
+        }
+
     }
 }
