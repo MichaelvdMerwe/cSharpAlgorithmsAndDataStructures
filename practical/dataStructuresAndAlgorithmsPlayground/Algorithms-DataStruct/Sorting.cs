@@ -6,7 +6,16 @@ namespace Algorithms_DataStruct
 {
     public class Sorting
     {
-
+        // swap elements in an array
+        private static void Swap(int[] array, int i, int j)
+        {
+            if (i == j)
+                return;
+            int temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+        
         public static void BubbleSort(int[] array)
         {
             // in-place and stable algorithm
@@ -99,13 +108,126 @@ namespace Algorithms_DataStruct
             }
         }
 
-        private static void Swap(int[] array, int i, int j)
+        public static void MergeSort(int[] array)
         {
-            if (i == j)
-                return;
-            int temp = array[i];
-            array[i] = array[j];
-            array[j] = temp;
+            // divide and conquer
+            // Two Phases: Splitting and Merging
+            // Splitting is logical: Provides an organized way to sequence the merges
+            // Not an in-place algorithm(uses a lot of memory, depends on N)
+            // Stable
+            // O(nlogn) tiime complixity (linearithmic)
+
+            int[] aux = new int[array.Length];
+
+            Sort(0, array.Length - 1);
+
+            void Sort(int low, int high)
+            {
+                if(high <= low)
+                {
+                    return;
+                }
+
+                int mid = (high + low) / 2;
+
+                Sort(low, mid);
+                Sort(mid + 1, high);
+
+                Merge(low, mid, high);
+            }
+
+            void Merge(int low, int mid, int high)
+            {
+                if(array[mid] <= array[mid + 1])
+                {
+                    return;
+                }
+
+                int i = low;
+                int j = mid + 1;
+
+                Array.Copy(array, low, aux, low, high - low + 1);
+
+                for (int k = low; k <= high; k++)
+                {
+                    if(i > mid)
+                    {
+                        array[k] = aux[j++];
+                    }
+                    else if(j > high)
+                    {
+                        array[k] = aux[i++];
+                    }
+                    else if(aux[j] < aux[i])
+                    {
+                        array[k] = aux[j++];
+                    }
+                    else
+                    {
+                        array[k] = aux[i++];
+                    }
+                }
+            }
+        }
+
+        public static void QuickSort(int[] array)
+        {
+            // divide and conquer
+            // recursice
+            // splitting based on pivot elements
+            // elements < pivot go to its left, elements > pivot go to its right
+            // pivot gets into its place in the end of each pass
+            // In-place and unstable algorithm
+            // O(nlogn) time complexity(linearithmic) at best O(n^2) time complexity(quadratic) in extremely rare cases
+
+            Sort(0, array.Length - 1);
+
+            void Sort(int low, int high)
+            {
+                if(high <= low)
+                {
+                    return;
+                }
+
+                int j = Partition(low, high);
+                Sort(low, j - 1);
+                Sort(j + 1, high);
+            }
+            int Partition(int low, int high)
+            {
+                int i = low;
+                int j = high + 1;
+
+                int pivot = array[low];
+
+                while (true)
+                {
+                    while(array[++i] < pivot)
+                    {
+                        if(i == high)
+                        {
+                            break;
+                        }
+                    }
+                    while(pivot < array[--j])
+                    {
+                        if(j == low)
+                        {
+                            break;
+                        }
+                    }
+
+                    if(i >= j)
+                    {
+                        break;
+                    }
+
+                    Swap(array, i, j);
+                }
+                Swap(array, low, j);
+
+                return j;
+            }
         }
     }
 }
